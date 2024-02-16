@@ -41,7 +41,8 @@
     "build": "tsc -b",
     "start": "yarn build && node build/src/index.js",
     "lint": "tsc -b && eslint --ext .ts,.tsx,.js,.jsx src/",
-    "lint:fix": "tsc -b && eslint --ext .ts,.tsx,.js,.jsx src/ --fix"
+    "lint:fix": "tsc -b && eslint --ext .ts,.tsx,.js,.jsx src/ --fix",
+    "example:starting_a_node": "yarn build && node build/src/examples/starting_a_node.js"
   },
   "dependencies": {
     "@ironfish/rust-nodejs": "1.13.0",
